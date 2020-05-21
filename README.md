@@ -20,7 +20,7 @@ docker run --rm \
     -e _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on' \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v ~/ProgramasRFB:/home/irpf/ProgramasRFB \
-    rochacbruno/irpf
+    renangraciano/irpf
 
 xhost -local:docker
 ```
@@ -28,7 +28,7 @@ xhost -local:docker
 ## buildar e rodar, localmente
 
 ```bash
-git clone https://github.com/rochacbruno/irpf-docker.git
+git clone https://github.com/renangraciano/irpf-docker.git
 cd irpf-docker
 
 mkdir ~/ProgramasRFB  # ignore caso vc ja tenha a pasta de anos anteriores

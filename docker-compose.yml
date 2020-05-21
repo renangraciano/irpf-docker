@@ -2,7 +2,7 @@ version: '2'
 services:
   irpf:
     container_name: irpf
-    image: rochacbruno/irpf
+    image: renangraciano/irpf
     build: .
     environment:
       - DISPLAY
